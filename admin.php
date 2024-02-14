@@ -80,7 +80,7 @@ $result = $conn->query($sql);
     
         <div class="like-buttons">
             <a href="edit_profile.php" class="btn btn-primary">Edit Profile</a>     
-           <a href="listallbooks.php" class="btn btn-info">List All Books</a>
+           <a href="listallbook.php" class="btn btn-info">List All Books</a>
             <a href="listbookcategory.php" class="btn btn-info">List Book Categories</a>
             <a href="addmembers.php" class="btn btn-info">List Members</a>
             <a href="addbookborrowings.php" class="btn btn-info">List Book Borrowings</a>
