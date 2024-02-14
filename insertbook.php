@@ -142,7 +142,7 @@ if(isset($_POST['insert_book'])) {
                 </select>
             </div>
             <button type="submit" class="btn btn-primary" name="insert_book">Insert Book</button> <a href="admin.php" class="btn btn-secondary">Admin Page</a>
-            <a href="listallbooks.php" class="btn btn-secondary">Book List Page</a>
+            <a href="listallbook.php" class="btn btn-secondary">Book List Page</a>
         </form>
     </div>
 </body>
