@@ -38,6 +38,7 @@ session_destroy();
 
 //down the database conection
 $conn->close();
+?>
 
 <!DOCTYPE html>
 <html lang="en">
