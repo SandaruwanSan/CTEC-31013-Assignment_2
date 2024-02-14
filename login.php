@@ -3,12 +3,7 @@
 session_start();
 
 // Database connection
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "library_system";
-
-$conn = new mysqli($servername, $username, $password, $dbname);
+include 'db_connection.php'; 
 
 // Check connection
 if ($conn->connect_error) {
@@ -128,9 +123,9 @@ if(isset($_POST['logout'])) {
         }
         .image-container img {
             position: absolute;
-            top: 2; 
-            left: 3;
-           
+            top: 2; /* Adjust the top position of the image */
+            left: 3; /* Adjust the left position of the image */
+            /* You can also use right and bottom properties to adjust position */
             max-width: 100%;
             max-height: 100%;
         }
@@ -210,7 +205,7 @@ if(isset($_POST['logout'])) {
     </div>
 
     <div class="container">
-        <h3>Welcome to our Library</h3>
+        <h3>Welcome to our Web Package</h3>
        
 </body>
 </html>
