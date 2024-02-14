@@ -39,11 +39,11 @@ $result = $conn->query($sql);
 </head>
 <body>
     <div class="container">
-        <!-- Logout button positioned in the top right corner -->
+        
         <a href="logout.php" class="btn btn-danger logout-btn">Logout</a>
         <center><i><b><h1>Welcome, <?php echo $_SESSION['username']; ?>!</h1><br><br></b></i></center>
         <h2>Staff Member List</h2><br><br>
-        <!-- Display all users in a table -->
+   
         <div class="table-responsive">
             <table class="table table-bordered table-striped">
                 <thead class="thead-dark">
