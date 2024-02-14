@@ -90,7 +90,7 @@ if ($result->num_rows > 0) {
     <div class='admin-link'>
         <a href='admin.php'>Admin Page</a>
       
-    </div></td> <td><div class='admin-link'><a href='insertbooks.php' class='btn btn-info'>Insert Books</a></div></td><td>
+    </div></td> <td><div class='admin-link'><a href='insertbook.php' class='btn btn-info'>Insert Books</a></div></td><td>
     <div class='admin-link'>
     <a href='manage_books.php' class='btn btn-info'>Update Book List</a>
 </div></td></tr></table>
