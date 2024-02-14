@@ -123,7 +123,7 @@ if(isset($_POST['logout'])) {
             height: 100px;
         }
         .image-container img {
-            position: absolute;
+           
             top: 2; /* Adjust the top position of the image */
             left: 3; /* Adjust the left position of the image */
             /* You can also use right and bottom properties to adjust position */
