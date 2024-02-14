@@ -112,7 +112,7 @@ if(isset($_POST['delete_book'])) {
         </table>
     </div>
     <form method="post" action="">
-            <input type="submit" name="logout" value="Logout" class="btn btn-danger mb-3"><br><a href="admin.php" class="btn btn-secondary">Admin Page</a><p>   </p><a href="listallbooks.php" class="btn btn-secondary">Book List Page</a>
+            <input type="submit" name="logout" value="Logout" class="btn btn-danger mb-3"><br><a href="admin.php" class="btn btn-secondary">Admin Page</a><p>   </p><a href="listallbook.php" class="btn btn-secondary">Book List Page</a>
         </form>
 
         
