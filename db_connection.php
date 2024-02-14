@@ -1,5 +1,6 @@
 <?php
 // Database connection
+//Student-Number-CT-2019-030
 $servername = "localhost";
 $username = "root";
 $password = "";
