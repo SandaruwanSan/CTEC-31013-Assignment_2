@@ -1,5 +1,7 @@
 <?php
+
 // Set default time zone
+//feature3_book_category_reg_CT_2019_089
 date_default_timezone_set('Asia/Colombo');
 
 include 'db_connection.php';
