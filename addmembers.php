@@ -1,6 +1,6 @@
+
+<?php
 //CT-2019-062
-<?php
-<?php
 // Include database connection
 include 'db_connection.php';
 
